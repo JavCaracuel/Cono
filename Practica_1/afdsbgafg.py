@@ -88,6 +88,7 @@ def seleccion_profundidad(tablero,ficha_posicion,array_posible):
     
     if (np.count_nonzero(tablero)==size_tablero**2):
         lista_soluciones.append(array_solucion)
+        return 1
     aux_count = 0
     for i in array_posible_lista:
         aux_count += 1    
